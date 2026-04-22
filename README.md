@@ -76,6 +76,7 @@ The following plot shows the true system output along with predictions from both
    python main.py
 
 4. Output
+
    RMSE values printed in console
    Plot saved in results/ folder
 
@@ -83,6 +84,8 @@ The following plot shows the true system output along with predictions from both
 
 This project demonstrates:
 
-Implementation of sequence-based models for system identification
-Proper evaluation using simulation-based prediction
-Comparison using both quantitative (RMSE) and qualitative (plots) analysis
+1. Implementation of sequence-based models for system identification
+
+2. Proper evaluation using simulation-based prediction
+   
+3. Comparison using both quantitative (RMSE) and qualitative (plots) analysis
