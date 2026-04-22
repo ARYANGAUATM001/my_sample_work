@@ -71,10 +71,11 @@ The following plot shows the true system output along with predictions from both
    ```bash
    pip install -r requirements.txt
 
-2. Run the main script:,
+2. Run the main script:
+    ```bash
    python main.py
 
-3. Output
+4. Output
    RMSE values printed in console
    Plot saved in results/ folder
 
