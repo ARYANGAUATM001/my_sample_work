@@ -78,6 +78,7 @@ The following plot shows the true system output along with predictions from both
 4. Output
 
    RMSE values printed in console
+   ```bash
    Plot saved in results/ folder
 
 
