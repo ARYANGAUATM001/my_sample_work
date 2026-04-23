@@ -1,4 +1,4 @@
-# Cascaded Tanks Benchmark – GRU-Based System Identification
+# Cascaded Tanks Benchmark – System Identification
 
 This project presents a small work sample for nonlinear system identification using the **Cascaded Tanks benchmark**.
 
