@@ -40,22 +40,18 @@ plt.plot(test_y, label="True Output")
 plt.plot(y_gru, label="GRU")
 plt.plot(y_deep, label="Deep GRU")
 
-plt.xlabel("Time (steps)")        # ✅ added
-plt.ylabel("Output value")        # ✅ added
+plt.xlabel("Time (steps)")      
+plt.ylabel("Output value")        
 
 plt.legend()
 plt.title("Mamba-inspired Models Comparison")
-plt.grid(True)                   # optional but useful
+plt.grid(True)                   
 
 plt.savefig("results/model_comparison.png", dpi=300)
-plt.show()                       # optional (to display)
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+plt.show()                       
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
 
 
 # Press the green button in the gutter to run the script.
