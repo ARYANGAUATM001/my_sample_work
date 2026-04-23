@@ -35,14 +35,20 @@ print(f"Deep GRU RMSE: {rmse_deep:.3f}")
 
 # Plot
 plt.figure(figsize=(10, 4))
-plt.plot(test.y, label="True Output")
+
+plt.plot(test_y, label="True Output")
 plt.plot(y_gru, label="GRU")
 plt.plot(y_deep, label="Deep GRU")
 
+plt.xlabel("Time (steps)")        # ✅ added
+plt.ylabel("Output value")        # ✅ added
+
 plt.legend()
 plt.title("Mamba-inspired Models Comparison")
+plt.grid(True)                   # optional but useful
 
 plt.savefig("results/model_comparison.png", dpi=300)
+plt.show()                       # optional (to display)
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
