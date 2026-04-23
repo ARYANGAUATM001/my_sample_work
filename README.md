@@ -9,7 +9,7 @@ The goal is to model the system dynamics and compare:
 * A **GRU-based sequence model**
 * A **Deep GRU model (stacked layers)**
 
-Both models are trained on the provided dataset and evaluated in **simulation mode**, following the benchmark guidelines.
+Both models are trained on the provided dataset , following the benchmark guidelines.
 
 ---
 
