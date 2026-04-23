@@ -44,7 +44,7 @@ Both models are trained on the provided dataset , following the benchmark guidel
 | GRU      | ~3.19 |
 | Deep GRU | ~2.12 |
 
-> The Deep GRU model performs better due to increased representational capacity and ability to capture more complex temporal patterns.
+> The Deep GRU model performs better.
 
 ---
 
