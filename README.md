@@ -52,7 +52,7 @@ Both models are trained on the provided dataset , following the benchmark guidel
 
 The following plot shows the true system output along with predictions from both models:
 
-![Model Comparison](results/model_comparison.png)
+![Model](results/model.png)
 
 ---
 
